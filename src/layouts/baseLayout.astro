@@ -1,0 +1,57 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import Navbar from "../components/navbar.astro";
+import LoadingIndicator from "astro-loading-indicator/component";
+import Footer from "../components/footer.astro";
+
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:title" content="M. Husni Ramadhan" />
+    <meta property="og:description" content="A software developer" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://mhusniramadhansr.my.id/images/me.jpeg"
+    />
+    <meta property="og:url" content="https://mhusniramadhansr.my.id" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@mhusniramadhan_" />
+    <meta
+      name="theme-color"
+      content="#F3F4F6"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#1F2937"
+      media="(prefers-color-scheme: dark)"
+    />
+    <title>{title + " | M. Husni Ramadhan"}</title>
+    <ViewTransitions />
+    <LoadingIndicator color="#7e22ce" height="5px" threshold={false} />
+    <style>
+      body {
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gray-100 dark:bg-gray-800 min-h-screen flex flex-col justify-between"
+  >
+    <Navbar />
+    <div
+      class="w-full lg:w-6/12 mx-auto dark:text-gray-300 px-5 lg:px-0 flex-1"
+    >
+      <slot />
+    </div>
+    <Footer />
+    <br />
+  </body>
+</html>

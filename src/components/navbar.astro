@@ -1,0 +1,23 @@
+---
+import ThemeIcon from "./themeIcon.astro";
+const pathName = Astro.url.pathname.replace(/\//g, "");
+---
+
+<nav class="w-full lg:w-6/12 mx-auto flex justify-between py-5 px-5 lg:px-0">
+  <a href="/" class="active:scale-95"
+    ><h1 class="text-2xl font-bold dark:text-gray-300">M. Husni Ramadhan</h1></a
+  >
+  <div id="link" class="flex gap-3 md:gap-5 me-3 mt-1 dark:text-gray-300">
+    <a
+      class={pathName === "project"
+        ? "border-b-4 border-b-purple-600"
+        : "hover:border-b-4 hover:border-b-purple-600"}
+      href="/project">Project</a
+    >
+    <a
+      href="https://www.blogger.com/blog/posts/5991202860270328145/"
+      class="hover:border-b-4 hover:border-b-purple-600 flex gap-1">Blog</a
+    >
+    <ThemeIcon />
+  </div>
+</nav>

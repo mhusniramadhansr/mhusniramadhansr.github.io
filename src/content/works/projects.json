@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Player Dzikir App",
+    "link": "https://github.com/mhusniramadhansr/player-dzikir-app",
+    "description": "Ini adalah proyek mobile programming membuat aplikasi player dzikir menggunakan react native",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Player Adzan App",
+    "link": "https://github.com/mhusniramadhansr/player-adzan-app",
+    "description": "Ini adalah proyek mobile programming membuat aplikasi player adzan menggunakan react native",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Kids Story App",
+    "link": "https://github.com/mhusniramadhansr/kids-story-app",
+    "description": "Ini adalah proyek mobile programming membuat aplikasi cerita untuk anak-anak menggunakan react native",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "New Foods App",
+    "link": "https://github.com/mhusniramadhansr/new-foods-app",
+    "description": "Ini adalah proyek mobile programming membuat aplikasi daftar makanan menggunakan react native",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Unit Convertion App",
+    "link": "https://github.com/mhusniramadhansr/unit-convertion-app",
+    "description": "Ini adalah proyek mobile programming membuat aplikasi konversi suhu menggunakan react native",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Gempa App",
+    "link": "https://github.com/mhusniramadhansr/gempa-app",
+    "description": "Ini adalah proyek mobile programming membuat aplikasi informasi gempa menggunakan react native",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Algoritma C++",
+    "link": "https://github.com/mhusniramadhansr/Algoritma.cpp",
+    "description": "Ini adalah hasil latihan algoritma menggunakan bahasa pemrograman C++",
+    "image": "/images/github-logo-vector.webp"
+  }
+]

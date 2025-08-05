@@ -1,0 +1,45 @@
+---
+import { getEntry } from "astro:content";
+import BaseLayout from "../layouts/baseLayout.astro";
+const logoTechStack = await getEntry("skill", "logo");
+---
+
+<BaseLayout title="home">
+  <main class="mt-10 text-justify mb-20">
+    <img
+      src="/images/me.jpeg"
+      alt="Photo"
+      width={200}
+      height={200}
+      class="rounded-full mx-auto my-10"
+    />
+    <h1
+      class="text-2xl font-semibold border-b-4 border-purple-600 inline-block"
+    >
+      About Me
+    </h1>
+    <p class="my-5">
+      Hi! I am <strong>M. Husni Ramadhan</strong> a passionate and dedicated
+      software developer specializing in backend development. With a keen interest in
+      creating efficient and scalable solutions, I take pride in ensuring high-performance
+      and reliable applications.
+    </p>
+    <p>
+      I am always eager to stay updated with the latest trends and technologies.
+      I believe in continuous learning and improvement to deliver cutting-edge
+      solutions. In my daily life, I love diving into tech topics, especially anything related to programming.
+    </p>
+    <h1
+      class="text-2xl font-semibold border-b-4 border-purple-600 inline-block my-5"
+    >
+      Skills
+    </h1>
+    <div class="flex flex-wrap gap-5 justify-center">
+      {
+        logoTechStack.data.map((v: { src?: string; alt?: string }) => (
+          <img width="46" height="46" src={v.src} alt={v.alt} />
+        ))
+      }
+    </div>
+  </main>
+</BaseLayout>
