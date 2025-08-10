@@ -1,38 +1,128 @@
 [
   {
+    "title": "M. Husni Ramadhan",
+    "link": "https://github.com/mhusniramadhansr/mhusniramadhansr.github.io",
+    "description": "Ini adalah web portfolio saya menggunakan astro",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Remastering Linux Rebellinux",
+    "link": "https://github.com/mhusniramadhansr/remastering-linux-rebellinux",
+    "description": "Ini adalah project sistem operasi, latihan custom os linux ubuntu menjadi rebellinux",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Mobile Progamming App",
+    "link": "https://github.com/mhusniramadhansr/mobile-progamming-app",
+    "description": "Ini adalah project latihan mobile programming dari pertemuan 1 sampai 10 menggunakan kotlin",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Help Anisaaul Create Web Portfolio",
+    "link": "https://github.com/mhusniramadhansr/help-anisaaul-create-web-portfolio",
+    "description": "Ini adalah project membantu teman saya, menyelesaikan tugas akhir mata kuliah lintas prodi (web dasar) membuat web portfolio menggunakan bootstrap",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Help Yuli Create Web Portfolio",
+    "link": "https://github.com/mhusniramadhansr/help-yuli-create-web-portfolio",
+    "description": "Ini adalah project membantu teman saya, menyelesaikan tugas akhir mata kuliah lintas prodi (web dasar) membuat web portfolio menggunakan bootstrap",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Sertifikat Saya Dari Kampus",
+    "link": "https://github.com/mhusniramadhansr/sertifikat-saya-dari-kampus",
+    "description": "Ini adalah kumpulan sertifikat saya selama masih aktif di perkuliahan",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Web Sederhana Untuk Seseorang",
+    "link": "https://github.com/mhusniramadhansr/web-sederhana-untuk-seseorang",
+    "description": "Ini adalah web sederhana untuk seseorang menggunakan html",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Si Akademik Smkn 1 Bojongpicung",
+    "link": "https://github.com/mhusniramadhansr/si-akademik-smkn1bojongpicung",
+    "description": "Ini adalah project untuk SMKN 1 Bojongpicung membuat aplikasi sistem informasi akademik berbasis website menggunakan php, laravel, bootsrap",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Si Transkrip Nilai Smkn 1 Bojongpicung",
+    "link": "https://github.com/mhusniramadhansr/si-transkrip-nilai-smkn1bojongpicung",
+    "description": "Ini adalah project untuk SMKN 1 Bojongpicung membuat aplikasi sistem informasi pengolahan data nilai siswa berbasis website menggunakan php, laravel, filament",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
     "title": "Player Dzikir App",
     "link": "https://github.com/mhusniramadhansr/player-dzikir-app",
-    "description": "Ini adalah proyek mobile programming membuat aplikasi player dzikir menggunakan react native",
+    "description": "Ini adalah project mobile programming membuat aplikasi player dzikir menggunakan react native",
     "image": "/images/github-logo-vector.webp"
   },
   {
     "title": "Player Adzan App",
     "link": "https://github.com/mhusniramadhansr/player-adzan-app",
-    "description": "Ini adalah proyek mobile programming membuat aplikasi player adzan menggunakan react native",
+    "description": "Ini adalah project mobile programming membuat aplikasi player adzan menggunakan react native",
     "image": "/images/github-logo-vector.webp"
   },
   {
     "title": "Kids Story App",
     "link": "https://github.com/mhusniramadhansr/kids-story-app",
-    "description": "Ini adalah proyek mobile programming membuat aplikasi cerita untuk anak-anak menggunakan react native",
+    "description": "Ini adalah project mobile programming membuat aplikasi cerita untuk anak-anak menggunakan react native",
     "image": "/images/github-logo-vector.webp"
   },
   {
     "title": "New Foods App",
     "link": "https://github.com/mhusniramadhansr/new-foods-app",
-    "description": "Ini adalah proyek mobile programming membuat aplikasi daftar makanan menggunakan react native",
+    "description": "Ini adalah project mobile programming membuat aplikasi daftar makanan menggunakan react native",
     "image": "/images/github-logo-vector.webp"
   },
   {
     "title": "Unit Convertion App",
     "link": "https://github.com/mhusniramadhansr/unit-convertion-app",
-    "description": "Ini adalah proyek mobile programming membuat aplikasi konversi suhu menggunakan react native",
+    "description": "Ini adalah project mobile programming membuat aplikasi konversi suhu menggunakan react native",
     "image": "/images/github-logo-vector.webp"
   },
   {
     "title": "Gempa App",
     "link": "https://github.com/mhusniramadhansr/gempa-app",
-    "description": "Ini adalah proyek mobile programming membuat aplikasi informasi gempa menggunakan react native",
+    "description": "Ini adalah project mobile programming membuat aplikasi informasi gempa menggunakan react native",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Latihan OOP Js",
+    "link": "https://github.com/mhusniramadhansr/Latihan-oop.js",
+    "description": "Ini adalah hasil belajar saya, latihan oop js",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Ngobar Muslim-Ikhlas-Husni-Dani",
+    "link": "https://github.com/mhusniramadhansr/Ngobar_Muslim-Ikhlas-Husni-Dani",
+    "description": "Ini adalah hasil gabut, ngoding bareng latihan C++ bersama sahabat saya hehe :v",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Latihan Web1 HTML",
+    "link": "https://github.com/mhusniramadhansr/Latihan-web1.html",
+    "description": "Ini adalah tugas web programming 1 menggunakan html, css, dan js",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Php OOP Main",
+    "link": "https://github.com/mhusniramadhansr/php-oop.main",
+    "description": "Ini adalah hasil belajar saya, latihan php (oop)",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Latihan Php Dasar Main",
+    "link": "https://github.com/mhusniramadhansr/Latihan-php-dasar.main",
+    "description": "Ini adalah hasil belajar saya, latihan php dasar (1-27)",
+    "image": "/images/github-logo-vector.webp"
+  },
+  {
+    "title": "Latihan Web2 Php",
+    "link": "https://github.com/mhusniramadhansr/Latihan-web2.php",
+    "description": "Ini adalah tugas web programming 2 dari pertemuan (1-10) menggunakan php",
     "image": "/images/github-logo-vector.webp"
   },
   {
