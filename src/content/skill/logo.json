@@ -12,6 +12,10 @@
     "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
   },
   {
+    "alt": "laravel",
+    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+  },
+  {
     "alt": "typescript",
     "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
   },
@@ -34,14 +38,6 @@
   {
     "alt": "php",
     "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
-  },
-  {
-    "alt": "python",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-  },
-  {
-    "alt": "laravel",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
   },
   {
     "alt": "mysql",
