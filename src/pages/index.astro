@@ -36,8 +36,15 @@ const logoTechStack = await getEntry("skill", "logo");
     </h1>
     <div class="flex flex-wrap gap-5 justify-center">
       {
-        logoTechStack.data.map((v: { src?: string; alt?: string }) => (
-          <img width="46" height="46" src={v.src} alt={v.alt} />
+        logoTechStack.data.map((v: { src?: string; alt?: string }, index: number) => (
+          <img 
+            width="46" 
+            height="46" 
+            src={v.src} 
+            alt={v.alt}
+            class="animate-fade-in-up hover:scale-110 transition-transform duration-300"
+            style={`animation-delay: ${index * 0.1}s`}
+          />
         ))
       }
     </div>

@@ -16,16 +16,8 @@
     "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
   },
   {
-    "alt": "nodejs",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
-  },
-  {
-    "alt": "php",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
-  },
-  {
-    "alt": "laravel",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+    "alt": "react",
+    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
   },
   {
     "alt": "bootstrap",
@@ -36,12 +28,20 @@
     "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
   },
   {
-    "alt": "react native",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+    "alt": "nodejs",
+    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+  },
+  {
+    "alt": "php",
+    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
   },
   {
     "alt": "python",
     "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+  },
+  {
+    "alt": "laravel",
+    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
   },
   {
     "alt": "mysql",
