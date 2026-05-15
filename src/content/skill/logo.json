@@ -12,28 +12,28 @@
     "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
   },
   {
-    "alt": "laravel",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
-  },
-  {
     "alt": "typescript",
     "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
   },
   {
-    "alt": "react",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+    "alt": "nodejs",
+    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+  },
+  {
+    "alt": "laravel",
+    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
   },
   {
     "alt": "bootstrap",
     "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
   },
   {
-    "alt": "tailwind",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    "alt": "react",
+    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
   },
   {
-    "alt": "nodejs",
-    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+    "alt": "tailwind",
+    "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
   },
   {
     "alt": "php",
