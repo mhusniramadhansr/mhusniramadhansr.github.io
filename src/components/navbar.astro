@@ -5,19 +5,27 @@ const pathName = Astro.url.pathname.replace(/\//g, "");
 
 <nav class="w-full lg:w-6/12 mx-auto flex justify-between py-5 px-5 lg:px-0">
   <a href="/" class="active:scale-95"
-    ><h1 class="text-2xl font-bold dark:text-gray-300">MHusniRamadhan</h1></a
+    ><h1 class="relative inline-block text-2xl font-bold dark:text-gray-300 pb-1">MHusniRamadhan
+        <div class="absolute bottom-0 left-0 h-1 w-full rounded-full bg-gradient-to-r from-purple-600 to-pink-500"></div>
+      </h1></a
   >
   <div id="link" class="flex gap-3 md:gap-5 me-3 mt-1 dark:text-gray-300">
     <a
+      href="/project"
       class={pathName === "project"
-        ? "border-b-4 border-b-purple-600"
-        : "hover:border-b-4 hover:border-b-purple-600"}
-      href="/project">Project</a
+        ? "group relative inline-block pb-1 text-purple-900 dark:text-white"
+        : "group relative inline-block pb-1 text-gray-700 dark:text-gray-300 hover:text-purple-600"}
     >
+      Project
+      <span class={"absolute -bottom-1 left-0 h-1 w-full rounded-full bg-gradient-to-r from-purple-600 to-pink-500 transition-opacity duration-300 " + (pathName === "project" ? "opacity-100" : "opacity-0 group-hover:opacity-100")}></span>
+    </a>
     <a
       href="https://www.blogger.com/blog/posts/5991202860270328145/"
-      class="hover:border-b-4 hover:border-b-purple-600 flex gap-1">Blog</a
+      class="group relative inline-block pb-1 text-gray-700 dark:text-gray-300 hover:text-purple-600 flex gap-1"
     >
+      Blog
+      <span class="absolute -bottom-1 left-0 h-1 w-full rounded-full bg-gradient-to-r from-purple-600 to-pink-500 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></span>
+    </a>
     <ThemeIcon />
   </div>
 </nav>
