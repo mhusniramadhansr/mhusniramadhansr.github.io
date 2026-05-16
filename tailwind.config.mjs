@@ -4,9 +4,13 @@ export default {
 	theme: {
 		extend: {
 			animation: {
-				'fade-in-up': 'fadeInUp 0.6s ease-out forwards, float 3s ease-in-out infinite',
+				'fade-in-up': 'fadeInUp 0.7s ease-out forwards',
+				'fade-in-up-loop': 'fadeInUp 0.7s ease-out forwards, float 4.5s ease-in-out 1s infinite',
 				'slide-in-right': 'slideInRight 0.8s ease-out forwards',
 				'underline-expand': 'underlineExpand 0.8s ease-out forwards',
+				'float-slow': 'float 4s ease-in-out infinite',
+				'bounce-slow': 'bounce 2.5s infinite',
+				'glow-pulse': 'glowPulse 3.5s ease-in-out infinite',
 			},
 			keyframes: {
 				fadeInUp: {
@@ -25,6 +29,22 @@ export default {
 					},
 					'50%': {
 						transform: 'translateY(-8px)',
+					},
+				},
+				pulseSoft: {
+					'0%, 100%': {
+						transform: 'scale(1)',
+					},
+					'50%': {
+						transform: 'scale(1.02)',
+					},
+				},
+				glowPulse: {
+					'0%, 100%': {
+						boxShadow: '0 0 0px rgba(168, 85, 247, 0)',
+					},
+					'50%': {
+						boxShadow: '0 0 20px rgba(168, 85, 247, 0.22)',
 					},
 				},
 				slideInRight: {
