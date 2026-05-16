@@ -1,0 +1,34 @@
+---
+const props = Astro.props as {
+  institution: string;
+  degree: string;
+  period: string;
+  location?: string;
+  gpa?: string;
+  accent?: string;
+};
+
+const {
+  institution,
+  degree,
+  period,
+  location = "",
+  gpa,
+  accent = 'from-white/30 via-white/20 to-white/10',
+} = props;
+---
+
+<article class={`animate-fade-in-up-loop w-full max-w-xs flex flex-col gap-4 px-4 py-3 rounded-2xl border border-white/20 bg-gradient-to-r ${accent} text-slate-900 shadow-sm transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg backdrop-blur-xl dark:border-slate-700/40 dark:bg-slate-900/40 dark:text-slate-100`}>
+  <div class="flex items-center gap-3">
+    <div class="text-2xl">🎓</div>
+    <div class="space-y-0.5">
+      <h3 class="text-sm font-semibold">{degree}</h3>
+      <p class="text-xs text-slate-500 dark:text-slate-400">{institution}{location ? ` • ${location}` : ''}</p>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+    <span>{period}</span>
+    {gpa ? <span class="font-medium text-slate-700 dark:text-slate-300">GPA: {gpa}</span> : null}
+  </div>
+</article>

@@ -1,0 +1,28 @@
+---
+const props = Astro.props as {
+  name: string;
+  description: string;
+  icon: string;
+  accent?: string;
+};
+
+const {
+  name,
+  description,
+  icon,
+  accent = 'from-slate-800 to-slate-600',
+} = props;
+---
+
+<article class="relative w-full max-w-sm p-6 rounded-[28px] bg-white/90 dark:bg-slate-900/75 shadow-2xl shadow-slate-400/10 dark:shadow-black/30 border border-slate-200/70 dark:border-slate-700/70 overflow-hidden" style="backdrop-filter: blur(16px);">
+  <div class="absolute inset-0 bg-gradient-to-br ${accent} opacity-10 blur-2xl -z-10"></div>
+  <div class="flex items-center gap-4">
+    <div class="flex h-16 w-16 items-center justify-center rounded-3xl bg-white/85 dark:bg-slate-800/90 text-3xl shadow-sm ring-1 ring-slate-200/60 dark:ring-slate-700/70">
+      {icon}
+    </div>
+    <div class="space-y-1">
+      <h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100">{name}</h3>
+      <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">{description}</p>
+    </div>
+  </div>
+</article>

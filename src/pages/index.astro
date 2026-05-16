@@ -1,11 +1,13 @@
 ---
 import { getEntry } from "astro:content";
 import BaseLayout from "../layouts/baseLayout.astro";
+import CertificateCard from "../components/certificateCard.astro";
+import EducationCard from "../components/educationCard.astro";
 const logoTechStack = await getEntry("skill", "logo");
 ---
 
 <BaseLayout title="home">
-  <main class="mt-10 text-justify mb-20">
+  <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-10 mb-20 text-left">
     <div class="flex justify-center mb-10">
       <div class="relative w-64 h-64">
         <!-- Background gradient circle -->
@@ -37,22 +39,21 @@ const logoTechStack = await getEntry("skill", "logo");
         <!-- Shine effect -->
         <div class="absolute inset-0 rounded-full bg-gradient-to-br from-white/20 to-transparent pointer-events-none"></div>
       </div>
+      
+      
     </div>
-    <div class="animate-fade-in-up-loop">
-      <h1
-        class="text-2xl md:text-3xl font-bold border-b-4 border-purple-600 inline-block pb-2 relative animate-glow-pulse"
-      >
+    <section class="animate-fade-in-up-loop">
+      <h1 class="text-2xl md:text-3xl font-bold border-b-4 border-purple-600 inline-block pb-2 relative animate-glow-pulse">
         About Me
         <div class="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-purple-600 to-pink-500 rounded-full"></div>
       </h1>
-    </div>
-    
-    <div class="space-y-5 mt-8">
-      <div class="animate-slide-in-right" style="animation-delay: 0.2s">
-        <p class="text-base md:text-lg text-gray-800 dark:text-gray-200 leading-relaxed">
-          Hi! I'm <span class="font-bold bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent inline-block">M. Husni Ramadhan, S.T</span>, a graduate of Universitas Putra Indonesia with a Bachelor’s degree in Informatics Engineering, graduating with Cumlaude honors. I possess strong communication and interpersonal skills, a passion for continuous learning, and the ability to work effectively both independently and within a team. I am highly adaptable, quick to learn, and able to thrive in fast-paced and dynamic environments.
-        </p>
-      </div>
+
+      <div class="space-y-5 mt-8 max-w-3xl text-gray-800 dark:text-gray-200 leading-relaxed">
+        <div class="animate-slide-in-right" style="animation-delay: 0.2s">
+          <p class="text-base md:text-lg text-gray-800 dark:text-gray-200 leading-relaxed">
+            Hi! I'm <span class="font-bold bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent inline-block">M. Husni Ramadhan, S.T</span>, a graduate of Universitas Putra Indonesia with a Bachelor’s degree in Informatics Engineering, graduating with Cumlaude honors. I possess strong communication and interpersonal skills, a passion for continuous learning, and the ability to work effectively both independently and within a team. I am highly adaptable, quick to learn, and able to thrive in fast-paced and dynamic environments.
+          </p>
+        </div>
       
       <div class="animate-slide-in-right" style="animation-delay: 0.4s">
         <p class="text-base md:text-lg text-gray-800 dark:text-gray-200 leading-relaxed">
@@ -62,29 +63,93 @@ const logoTechStack = await getEntry("skill", "logo");
 
       <div class="animate-slide-in-right" style="animation-delay: 0.6s">
         <p class="text-base md:text-lg text-gray-800 dark:text-gray-200 leading-relaxed">
-          I'm always eager to stay updated with the latest trends and technologies. I believe in continuous learning and improvement to deliver cutting-edge solutions. On good days, I love to explore about technology especially on programming.
+          I'm always eager to stay updated with the latest trends and technologies. I believe in continuous learning and improvement to deliver cutting-edge solutions. On good days, I love to explore technology, especially programming.
         </p>
       </div>
 
-      <div class="mt-4 flex flex-wrap items-center justify-center gap-3">
-        <div class="animate-fade-in-up-loop inline-flex items-center gap-2 px-4 py-2 rounded-full border border-purple-300 bg-gradient-to-r from-purple-100 via-purple-200 to-pink-100 text-purple-900 shadow-sm transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-purple-700 dark:from-purple-900/40 dark:via-purple-800/40 dark:to-pink-900/30 dark:text-purple-200" style="animation-delay: 0.95s">
-          <span class="text-2xl">💻</span>
-          <span class="text-sm font-medium">Web Development</span>
-        </div>
-        <div class="animate-fade-in-up-loop inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-300 bg-gradient-to-r from-amber-100 via-amber-200 to-orange-100 text-amber-900 shadow-sm transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-amber-700 dark:from-amber-900/40 dark:via-amber-800/40 dark:to-orange-900/30 dark:text-amber-200" style="animation-delay: 0.9s">
-          <span class="text-2xl">📄</span>
-          <span class="text-sm font-medium">Microsoft Office</span>
-        </div>
-        <div class="animate-fade-in-up-loop inline-flex items-center gap-2 px-4 py-2 rounded-full border border-sky-300 bg-gradient-to-r from-sky-100 via-sky-200 to-cyan-100 text-sky-900 shadow-sm transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-sky-700 dark:from-sky-900/40 dark:via-sky-800/40 dark:to-cyan-900/30 dark:text-sky-200" style="animation-delay: 1s">
-          <span class="text-2xl">🛠️</span>
-          <span class="text-sm font-medium">IT Support Specialist</span>
-        </div>
-        <div class="animate-fade-in-up-loop inline-flex items-center gap-2 px-4 py-2 rounded-full border border-emerald-300 bg-gradient-to-r from-emerald-100 via-emerald-200 to-emerald-100 text-emerald-900 shadow-sm transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-emerald-700 dark:from-emerald-900/40 dark:via-emerald-800/40 dark:to-emerald-900/30 dark:text-emerald-200" style="animation-delay: 1.1s">
-          <span class="text-2xl">🌐</span>
-          <span class="text-sm font-medium">Network Administration</span>
+      <div class="mt-4">
+        <h2 class="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4">Core Expertise</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 items-center justify-items-center">
+          <div class="animate-fade-in-up-loop w-full max-w-xs flex items-center justify-center gap-3 px-4 py-3 rounded-2xl border border-purple-300 bg-gradient-to-r from-purple-400 via-purple-300 to-pink-200 text-purple-950 shadow-lg shadow-purple-200/40 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-purple-700 dark:bg-gradient-to-r dark:from-purple-900 dark:via-purple-800 dark:to-pink-900 dark:text-white" style="animation-delay: 0.95s">
+            <span class="text-2xl">💻</span>
+            <span class="text-sm font-medium">Web Development</span>
+          </div>
+
+          <div class="animate-fade-in-up-loop w-full max-w-xs flex items-center justify-center gap-3 px-4 py-3 rounded-2xl border border-yellow-300 bg-gradient-to-r from-yellow-300 via-orange-200 to-orange-100 text-amber-950 shadow-lg shadow-amber-200/40 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-yellow-500 dark:bg-gradient-to-r dark:from-orange-900 dark:via-amber-900 dark:to-orange-800 dark:text-white" style="animation-delay: 0.9s">
+            <span class="text-2xl">📄</span>
+            <span class="text-sm font-medium">Microsoft Office</span>
+          </div>
+
+          <div class="animate-fade-in-up-loop w-full max-w-xs flex items-center justify-center gap-3 px-4 py-3 rounded-2xl border border-cyan-300 bg-gradient-to-r from-sky-300 via-cyan-200 to-cyan-100 text-sky-950 shadow-lg shadow-sky-200/40 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-cyan-700 dark:bg-gradient-to-r dark:from-sky-900 dark:via-cyan-900 dark:to-slate-900 dark:text-white" style="animation-delay: 1s">
+            <span class="text-2xl">🛠️</span>
+            <span class="text-sm font-medium">IT Support</span>
+          </div>
+
+          <div class="animate-fade-in-up-loop w-full max-w-xs flex items-center justify-center gap-3 px-4 py-3 rounded-2xl border border-emerald-300 bg-gradient-to-r from-emerald-300 via-emerald-200 to-lime-100 text-emerald-950 shadow-lg shadow-emerald-200/40 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-emerald-700 dark:bg-gradient-to-r dark:from-emerald-900 dark:via-emerald-800 dark:to-teal-900 dark:text-white" style="animation-delay: 1.1s">
+            <span class="text-2xl">🌐</span>
+            <span class="text-sm font-medium">Network Administration</span>
+          </div>
         </div>
       </div>
+      
+      <!-- Operating Systems Section -->
+      <section class="mt-10 w-full">
+        <h2 class="text-2xl md:text-3xl font-bold border-b-4 border-purple-600 inline-block pb-2 mb-6">Operating Systems</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="animate-fade-in-up-loop w-full max-w-xs flex items-center justify-center gap-3 px-4 py-3 rounded-2xl border border-purple-300 bg-gradient-to-r from-purple-400 via-fuchsia-200 to-pink-100 text-purple-950 shadow-lg shadow-purple-200/40 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-purple-700 dark:bg-gradient-to-r dark:from-purple-900 dark:via-pink-900 dark:to-slate-900 dark:text-white" style="animation-delay: 0.95s">
+            <span class="text-2xl">🪟</span>
+            <span class="text-sm font-medium">Windows</span>
+          </div>
+
+          <div class="animate-fade-in-up-loop w-full max-w-xs flex items-center justify-center gap-3 px-4 py-3 rounded-2xl border border-sky-300 bg-gradient-to-r from-sky-300 via-slate-100 to-slate-50 text-sky-950 shadow-lg shadow-sky-200/40 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-sky-700 dark:bg-gradient-to-r dark:from-slate-900 dark:via-slate-800 dark:to-cyan-900 dark:text-white" style="animation-delay: 0.9s">
+            <span class="text-2xl">🍎</span>
+            <span class="text-sm font-medium">macOS</span>
+          </div>
+
+          <div class="animate-fade-in-up-loop w-full max-w-xs flex items-center justify-center gap-3 px-4 py-3 rounded-2xl border border-cyan-300 bg-gradient-to-r from-cyan-300 via-blue-200 to-slate-100 text-sky-950 shadow-lg shadow-cyan-200/40 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-cyan-700 dark:bg-gradient-to-r dark:from-slate-900 dark:via-cyan-900 dark:to-blue-900 dark:text-white" style="animation-delay: 1s">
+            <span class="text-2xl">🐧</span>
+            <span class="text-sm font-medium">Kali Linux</span>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Education Section -->
+      <section class="mt-10 w-full">
+        <h2 class="text-2xl md:text-3xl font-bold border-b-4 border-purple-600 inline-block pb-2 mb-4">Education</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <EducationCard
+            degree="Bachelor of Informatics Engineering"
+            institution="Universitas Putra Indonesia"
+            period="2021 — 2025"
+            gpa="3.61 (Cumlaude)"
+            details={["Tugas Akhir: Sistem Kecerdasan Buatan Untuk Mengenali Tulisan Tangan Pada Resep Dokter Menggunakan Model YOLO v8 Berbasis Website"]}
+            accent="from-indigo-200/50 via-white/20 to-violet-200/50"
+          />
+
+          <EducationCard
+            degree="Computer and Network Engineering"
+            institution="SMKN 1 Bojongpicung"
+            period="2018 — 2021"
+            gpa="80.00 (A)"
+            accent="from-amber-200/50 via-white/20 to-yellow-200/50"
+          />
+        </div>
+      </section>
+
+      <!-- Certificates & Competitions -->
+      <section class="mt-8 w-full">
+        <h2 class="text-2xl md:text-3xl font-bold border-b-4 border-purple-600 inline-block pb-2 mb-4">Certificates & Competitions</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <CertificateCard title="Juara 1 Lomba Web" issuer="Universitas Putra Indonesia" date="Mar 2024" description="Membangun aplikasi web responsif dengan fokus UX dan performa." accent="from-amber-400 to-yellow-500" />
+          <CertificateCard title="Sertifikat Cloud" issuer="Dicoding" date="Nov 2023" description="Sertifikat pelatihan cloud computing dan deployment." accent="from-purple-500 to-pink-500" />
+          <CertificateCard title="Hackathon Runner-up" issuer="TechFest" date="Aug 2022" description="Tim kami membuat solusi IoT untuk monitoring lingkungan." accent="from-sky-400 to-cyan-500" />
+        </div>
+      </section>
     </div>
+  </section>
     <h1
       class="text-2xl md:text-3xl font-bold border-b-4 border-purple-600 inline-block my-5 animate-fade-in-up-loop"
     >

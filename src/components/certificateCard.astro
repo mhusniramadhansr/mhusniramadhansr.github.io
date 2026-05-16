@@ -1,0 +1,26 @@
+---
+const { title, issuer, date, description, accent = 'from-amber-400 to-yellow-500' } = Astro.props;
+---
+
+<article class="relative w-full max-w-xs p-6 rounded-2xl bg-white/80 dark:bg-slate-900/70 shadow-2xl border border-transparent" style="backdrop-filter: blur(6px);">
+  <div class="absolute -inset-0.5 rounded-2xl bg-gradient-to-br ${accent} opacity-60 blur-sm -z-10"></div>
+
+  <div class="flex items-start justify-between gap-4">
+    <div>
+      <h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100">{title}</h3>
+      <p class="text-sm text-slate-600 dark:text-slate-300 mt-1">{issuer}</p>
+    </div>
+    <div class="flex-shrink-0">
+      <div class="h-12 w-12 rounded-lg flex items-center justify-center bg-gradient-to-tr from-white/60 to-white/20 ring-1 ring-white/30 shadow-md">
+        🏆
+      </div>
+    </div>
+  </div>
+
+  <p class="mt-4 text-sm text-slate-700 dark:text-slate-300">{description}</p>
+
+  <div class="mt-6 flex items-center justify-between">
+    <span class="text-xs text-slate-500 dark:text-slate-400">{date}</span>
+    <button class="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-gradient-to-r from-slate-900 to-slate-700 text-white text-sm shadow hover:scale-105 transition-transform">View</button>
+  </div>
+</article>
